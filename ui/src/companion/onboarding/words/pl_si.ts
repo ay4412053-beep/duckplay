@@ -10,14 +10,14 @@ export const words: Words = {
   ...polish,
   install: {
     ...polish.install,
-    sub: 'WestPlay dodaje do gry wtyczkę, która przy każdym uruchomieniu sama wczytuje ekrany WestPlay dla ciężarówek – w menu „Mynedżer modōw” nie trzeba niczego włączać. Pliki gry pozostają nietknięte, a odinstalowanie WestPlay usuwa wszystko.',
+    sub: 'DuckPlay dodaje do gry wtyczkę, która przy każdym uruchomieniu sama wczytuje ekrany DuckPlay dla ciężarówek – w menu „Mynedżer modōw” nie trzeba niczego włączać. Pliki gry pozostają nietknięte, a odinstalowanie DuckPlay usuwa wszystko.',
   },
   launch: {
     ...polish.launch,
     steps: [
       {
         title: polish.launch.steps[0].title,
-        text: 'Gdy gra wyświetli komunikat „Wykrytŏ prōbã skorzistaniŏ ze zaawansowanych nŏczyniōw deweloperskich.”, wybierz „Ok” – ten komunikat wywołuje WestPlay.',
+        text: 'Gdy gra wyświetli komunikat „Wykrytŏ prōbã skorzistaniŏ ze zaawansowanych nŏczyniōw deweloperskich.”, wybierz „Ok” – ten komunikat wywołuje DuckPlay.',
       },
       polish.launch.steps[1],
       polish.launch.steps[2],

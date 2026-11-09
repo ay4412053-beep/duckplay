@@ -91,7 +91,7 @@ export const strings: Strings = {
     onJob: 'Durante um trabalho, o destino é o da entrega',
     noAnswer: 'O jogo não respondeu',
     elevated:
-      'O jogo está a ser executado como administrador, por isso o WestPlay não vê o percurso. Inicie o jogo normalmente',
+      'O jogo está a ser executado como administrador, por isso o DuckPlay não vê o percurso. Inicie o jogo normalmente',
     unsupported: 'Esta versão do jogo ainda não é suportada',
     failed: 'O jogo não conseguiu calcular um percurso até lá',
   },
@@ -468,9 +468,9 @@ export const strings: Strings = {
     automaticFooter: 'Escuro à noite e sempre que os faróis estão acesos, tal como faz o sensor de luz do camião.',
     vehicleBar: 'Barra do veículo',
     vehicleBarFooter:
-      'A barra de informações do camião ao lado do WestPlay. Se a desativar, o WestPlay ocupa o ecrã inteiro.',
+      'A barra de informações do camião ao lado do DuckPlay. Se a desativar, o DuckPlay ocupa o ecrã inteiro.',
     textSize: 'Tamanho do texto',
-    textSizeAbout: 'As apps do WestPlay vão ajustar-se ao tamanho de leitura preferido abaixo.',
+    textSizeAbout: 'As apps do DuckPlay vão ajustar-se ao tamanho de leitura preferido abaixo.',
     wallpaper: 'Papel de parede',
     dashboard: 'Painel',
     widgets: 'Widgets',
@@ -484,7 +484,7 @@ export const strings: Strings = {
     recommended: 'Recomendado',
     custom: 'Personalizado',
     equalizerFooter:
-      'O WestPlay reproduz a música pelos altifalantes de cada camião, afinados para a respetiva cabina. Se preferir outro som, pode personalizar o som de todas as apps de música, em todos os camiões.',
+      'O DuckPlay reproduz a música pelos altifalantes de cada camião, afinados para a respetiva cabina. Se preferir outro som, pode personalizar o som de todas as apps de música, em todos os camiões.',
     low: 'Graves',
     mid: 'Médios',
     high: 'Agudos',

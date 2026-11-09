@@ -6,7 +6,7 @@ export const words: Words = {
   continue: 'Continua',
   welcome: {
     title: 'CarPlay in cabina',
-    sub: 'WestPlay porta CarPlay sullo schermo del camion in Euro Truck Simulator 2 e American Truck Simulator. La configurazione richiede pochi minuti.',
+    sub: 'DuckPlay porta CarPlay sullo schermo del camion in Euro Truck Simulator 2 e American Truck Simulator. La configurazione richiede pochi minuti.',
     start: 'Inizia',
   },
   summary: {
@@ -21,11 +21,11 @@ export const words: Words = {
     title: 'Il gioco',
     titleBoth: 'I giochi',
     titleMissing: 'Dov’è il gioco?',
-    found: 'WestPlay ha trovato il gioco su questo PC.',
+    found: 'DuckPlay ha trovato il gioco su questo PC.',
     foundMany: 'Il gioco è installato in più posizioni. Scegli quella con cui giochi.',
-    foundBoth: 'WestPlay ha trovato entrambi i giochi su questo PC e si installerà in tutti e due.',
+    foundBoth: 'DuckPlay ha trovato entrambi i giochi su questo PC e si installerà in tutti e due.',
     missing:
-      'WestPlay non ha trovato il gioco. Scegli la cartella in cui è installato, quella che contiene base.scs.',
+      'DuckPlay non ha trovato il gioco. Scegli la cartella in cui è installato, quella che contiene base.scs.',
     chooseAnother: 'Usa un’altra cartella…',
     chooseFolder: 'Scegli la cartella…',
     picker: 'Scegli la cartella del gioco',
@@ -34,7 +34,7 @@ export const words: Words = {
     gameGone: 'Il gioco non è più in questa cartella.',
     closeToGoOn: {
       title: 'Prima chiudi il gioco.',
-      text: 'WestPlay può installarsi solo a gioco chiuso.',
+      text: 'DuckPlay può installarsi solo a gioco chiuso.',
     },
   },
   check: {
@@ -45,16 +45,16 @@ export const words: Words = {
     notYet: 'Non ancora supportato',
     title: 'La tua configurazione',
     titleNotYet: 'Non ancora supportato',
-    cantInstall: 'WestPlay non supporta ancora questa versione del gioco.',
+    cantInstall: 'DuckPlay non supporta ancora questa versione del gioco.',
     version: 'Versione',
     unknown: 'Sconosciuta',
     dlcs: 'DLC',
     mapDlcs: 'DLC mappa',
     noMapDlcs: 'Nessuno',
-    untested: 'WestPlay non è ancora stato provato con questa versione, ma molto probabilmente funzionerà.',
+    untested: 'DuckPlay non è ancora stato provato con questa versione, ma molto probabilmente funzionerà.',
     otherCarPlay: {
       title: 'Rimuovi YMN One',
-      text: 'Nel gioco è installata un’altra mod CarPlay, YMN One (YamanDriveBridge.dll, nella cartella plugins). Occupa lo schermo GPS del camion, quindi WestPlay non può comparire lì, e quando YMN One non è in esecuzione lo schermo diventa rosa. Chiudi il gioco ed elimina quel file.',
+      text: 'Nel gioco è installata un’altra mod CarPlay, YMN One (YamanDriveBridge.dll, nella cartella plugins). Occupa lo schermo GPS del camion, quindi DuckPlay non può comparire lì, e quando YMN One non è in esecuzione lo schermo diventa rosa. Chiudi il gioco ed elimina quel file.',
     },
     trucks: 'Camion',
     truckNotYet: 'Non ancora supportato',
@@ -63,11 +63,11 @@ export const words: Words = {
     notInGame: 'Non presente nel gioco',
     scania7: 'Scania S e R – schermo da 7"',
     scaniaSmartDash: 'Scania S e R – Smart Dash',
-    anyTruckTablet: 'Qualsiasi camion – con il tablet WestPlay',
+    anyTruckTablet: 'Qualsiasi camion – con il tablet DuckPlay',
     profiles: 'Profili',
     profileCount: { one: '{n} profilo', other: '{n} profili' },
     noProfiles: 'Ancora nessun profilo',
-    noProfilesDetail: 'WestPlay preparerà la mappa per il primo profilo che creerai.',
+    noProfilesDetail: 'DuckPlay preparerà la mappa per il primo profilo che creerai.',
     baseMap: 'Mappa originale',
     withMods: '{map} con {mods}',
     unreadable: {
@@ -75,20 +75,20 @@ export const words: Words = {
       other: 'Impossibile leggere {n} mod della mappa: le loro modifiche non compariranno',
     },
     mapNote:
-      'WestPlay prepara una mappa per ognuno dei tuoi profili, uno dopo l’altro, partendo dall’ultimo con cui hai giocato. Le mappe vengono preparate a gioco chiuso.',
+      'DuckPlay prepara una mappa per ognuno dei tuoi profili, uno dopo l’altro, partendo dall’ultimo con cui hai giocato. Le mappe vengono preparate a gioco chiuso.',
   },
   install: {
-    title: 'Installa WestPlay',
-    titleDone: 'WestPlay è installato',
-    sub: 'WestPlay aggiunge al gioco un plugin che carica i suoi schermi a ogni partita: non c’è niente da attivare in Gestione mod. I file del gioco restano intatti e, disinstallando WestPlay, si rimuove tutto.',
+    title: 'Installa DuckPlay',
+    titleDone: 'DuckPlay è installato',
+    sub: 'DuckPlay aggiunge al gioco un plugin che carica i suoi schermi a ogni partita: non c’è niente da attivare in Gestione mod. I file del gioco restano intatti e, disinstallando DuckPlay, si rimuove tutto.',
     install: 'Installa',
     tryAgain: 'Riprova',
     asAdministrator: 'Installa come amministratore',
     plugin: 'Plugin',
-    pluginDetail: 'Mostra WestPlay sullo schermo del camion',
+    pluginDetail: 'Mostra DuckPlay sullo schermo del camion',
     banners: {
       installing: { title: 'Installazione…' },
-      done: { title: 'WestPlay è installato', text: 'Il gioco è pronto' },
+      done: { title: 'DuckPlay è installato', text: 'Il gioco è pronto' },
       permission: { title: 'Serve un’autorizzazione', text: 'Windows la chiederà una volta' },
       inUse: { title: 'Chiudi il gioco', text: 'Sta usando il plugin' },
       failed: { title: 'Installazione non riuscita', text: 'Dettagli a sinistra' },
@@ -96,7 +96,7 @@ export const words: Words = {
     },
     closeToInstall: {
       title: 'Prima chiudi il gioco.',
-      text: 'WestPlay non si può installare mentre il gioco è aperto.',
+      text: 'DuckPlay non si può installare mentre il gioco è aperto.',
     },
     inUse: {
       title: 'Prima chiudi il gioco.',
@@ -111,29 +111,29 @@ export const words: Words = {
       text: 'Senza autorizzazione il plugin non si può installare. Riprova e scegli «Sì».',
     },
     pluginFailed: 'Impossibile installare il plugin.',
-    modFailed: 'Impossibile preparare gli schermi di WestPlay dai file del gioco.',
-    noPlugin: 'In questa copia di WestPlay manca il plugin. Reinstalla WestPlay.',
+    modFailed: 'Impossibile preparare gli schermi di DuckPlay dai file del gioco.',
+    noPlugin: 'In questa copia di DuckPlay manca il plugin. Reinstalla DuckPlay.',
     noDocuments: 'Cartella Documenti non trovata.',
   },
   speed: {
     title: 'Quanto in fretta creare le mappe?',
-    sub: 'Ora WestPlay si installa nel tuo gioco e crea una mappa per ciascuno dei tuoi profili. Questo impegna molto il tuo PC per un po’. Con tanta memoria e un processore potente, può usare tutto e finire prima. Se non sei sicuro, lascialo disattivato: puoi cambiarlo più tardi nella pagina Mappa.',
+    sub: 'Ora DuckPlay si installa nel tuo gioco e crea una mappa per ciascuno dei tuoi profili. Questo impegna molto il tuo PC per un po’. Con tanta memoria e un processore potente, può usare tutto e finire prima. Se non sei sicuro, lascialo disattivato: puoi cambiarlo più tardi nella pagina Mappa.',
     confirm: 'Ho letto questa pagina e confermo la mia scelta.',
   },
   map: {
     title: 'Preparazione della mappa…',
     titleReady: 'La mappa è pronta',
-    sub: 'WestPlay crea la mappa dell’app Mappe dal tuo gioco, compresi i DLC e le mod della mappa. Ci vuole un paio di minuti.',
+    sub: 'DuckPlay crea la mappa dell’app Mappe dal tuo gioco, compresi i DLC e le mod della mappa. Ci vuole un paio di minuti.',
     banners: {
       building: 'Preparazione della mappa',
       ready: { title: 'La mappa è pronta', text: 'Con i tuoi DLC e le mod della mappa' },
       waiting: { title: 'Chiudi il gioco', text: 'La mappa si prepara a gioco chiuso' },
-      failed: { title: 'Impossibile preparare la mappa', text: 'WestPlay riproverà più tardi' },
+      failed: { title: 'Impossibile preparare la mappa', text: 'DuckPlay riproverà più tardi' },
       getting: 'Preparazione…',
     },
     waiting: {
       title: 'Prima chiudi il gioco.',
-      text: 'Preparare la mappa richiede molta memoria, quindi WestPlay aspetta che il gioco sia chiuso.',
+      text: 'Preparare la mappa richiede molta memoria, quindi DuckPlay aspetta che il gioco sia chiuso.',
     },
     stages: {
       reading: { now: 'Lettura della mappa del gioco', done: 'Mappa del gioco letta' },
@@ -156,7 +156,7 @@ export const words: Words = {
   },
   accounts: {
     title: 'Accedi a YouTube',
-    sub: 'Facoltativo. Accedi per vedere i tuoi consigli, le iscrizioni e la cronologia sullo schermo del camion. L’accesso a Google avviene in una finestra a parte, e WestPlay non vede mai i dati del tuo account.',
+    sub: 'Facoltativo. Accedi per vedere i tuoi consigli, le iscrizioni e la cronologia sullo schermo del camion. L’accesso a Google avviene in una finestra a parte, e DuckPlay non vede mai i dati del tuo account.',
     signIn: 'Accedi',
     signOut: 'Esci',
     signedIn: 'Accesso effettuato',
@@ -167,13 +167,13 @@ export const words: Words = {
   },
   spotify: {
     title: 'Accedi a Spotify',
-    sub: 'Facoltativo. Accedi per ascoltare Spotify sullo schermo del camion, con le tue playlist e la tua libreria. L’accesso avviene in una finestra di Spotify a parte, e WestPlay non vede mai i dati del tuo account.',
+    sub: 'Facoltativo. Accedi per ascoltare Spotify sullo schermo del camion, con le tue playlist e la tua libreria. L’accesso avviene in una finestra di Spotify a parte, e DuckPlay non vede mai i dati del tuo account.',
     finishInWindow: 'Completa l’accesso nella finestra di Spotify',
     signingIn: { title: 'Accesso a Spotify', text: 'Continua nella finestra di Spotify' },
   },
   appleMusic: {
     title: 'Accedi ad Apple Music',
-    sub: 'Facoltativo. Accedi per ascoltare Apple Music sullo schermo del camion, con le tue playlist e la tua libreria. L’accesso avviene in una finestra di Apple Music a parte, e WestPlay non vede mai i dati del tuo account.',
+    sub: 'Facoltativo. Accedi per ascoltare Apple Music sullo schermo del camion, con le tue playlist e la tua libreria. L’accesso avviene in una finestra di Apple Music a parte, e DuckPlay non vede mai i dati del tuo account.',
     finishInWindow: 'Completa l’accesso nella finestra di Apple Music',
     signingIn: { title: 'Accesso ad Apple Music', text: 'Continua nella finestra di Apple Music' },
   },
@@ -183,11 +183,11 @@ export const words: Words = {
     steps: [
       {
         title: 'Avvia il gioco',
-        text: 'Quando compare «Rilevata richiesta di utilizzo delle opzioni SDK avanzate.», scegli «OK»: l’avviso arriva da WestPlay.',
+        text: 'Quando compare «Rilevata richiesta di utilizzo delle opzioni SDK avanzate.», scegli «OK»: l’avviso arriva da DuckPlay.',
       },
       {
         title: 'Sali sul camion',
-        text: 'Accendi l’impianto elettrico e WestPlay comparirà sullo schermo. Lascia WestPlay aperto mentre giochi.',
+        text: 'Accendi l’impianto elettrico e DuckPlay comparirà sullo schermo. Lascia DuckPlay aperto mentre giochi.',
       },
       {
         title: 'Si parte',

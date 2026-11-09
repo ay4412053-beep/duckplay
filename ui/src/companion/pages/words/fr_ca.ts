@@ -18,7 +18,7 @@ export const words: CompanionWords = {
     ...france.update,
     finish: {
       ...france.update.finish,
-      text: 'Le plugiciel du nouveau WestPlay va être installé dans le jeu. Windows demandera l’autorisation, comme lors de l’installation.',
+      text: 'Le plugiciel du nouveau DuckPlay va être installé dans le jeu. Windows demandera l’autorisation, comme lors de l’installation.',
     },
   },
 }

@@ -6,7 +6,7 @@ export const words: Words = {
   continue: 'Tovább',
   welcome: {
     title: 'CarPlay a fülkében',
-    sub: 'A WestPlay CarPlayt hoz a kamion képernyőjére az Euro Truck Simulator 2-ben és az American Truck Simulatorban. A beállítás csak pár perc.',
+    sub: 'A DuckPlay CarPlayt hoz a kamion képernyőjére az Euro Truck Simulator 2-ben és az American Truck Simulatorban. A beállítás csak pár perc.',
     start: 'Kezdjük',
   },
   summary: {
@@ -21,11 +21,11 @@ export const words: Words = {
     title: 'A játék',
     titleBoth: 'A játékok',
     titleMissing: 'Hol van a játék?',
-    found: 'A WestPlay megtalálta a játékot ezen a gépen.',
+    found: 'A DuckPlay megtalálta a játékot ezen a gépen.',
     foundMany: 'A játék több helyre is telepítve van. Válaszd ki, melyikkel játszol.',
-    foundBoth: 'A WestPlay mindkét játékot megtalálta ezen a gépen, és mindkettőhöz beállítja magát.',
+    foundBoth: 'A DuckPlay mindkét játékot megtalálta ezen a gépen, és mindkettőhöz beállítja magát.',
     missing:
-      'A WestPlay nem találta a játékot. Válaszd ki a mappát, ahová telepítetted – azt, amelyikben a base.scs van.',
+      'A DuckPlay nem találta a játékot. Válaszd ki a mappát, ahová telepítetted – azt, amelyikben a base.scs van.',
     chooseAnother: 'Másik mappa…',
     chooseFolder: 'Mappa kiválasztása…',
     picker: 'Válaszd ki a játék mappáját',
@@ -34,7 +34,7 @@ export const words: Words = {
     gameGone: 'A játék már nincs ebben a mappában.',
     closeToGoOn: {
       title: 'Zárd be a játékot.',
-      text: 'A WestPlay csak akkor állítható be, amikor a játék nem fut.',
+      text: 'A DuckPlay csak akkor állítható be, amikor a játék nem fut.',
     },
   },
   check: {
@@ -45,16 +45,16 @@ export const words: Words = {
     notYet: 'Még nem támogatott',
     title: 'Ezt találtuk',
     titleNotYet: 'Még nem támogatott',
-    cantInstall: 'A WestPlay még nem támogatja a játék ezen verzióját.',
+    cantInstall: 'A DuckPlay még nem támogatja a játék ezen verzióját.',
     version: 'Verzió',
     unknown: 'Ismeretlen',
     dlcs: 'DLC-k',
     mapDlcs: 'Térkép-DLC-k',
     noMapDlcs: 'Nincs',
-    untested: 'A WestPlayt ezzel a verzióval még nem próbálták ki, de valószínűleg működik.',
+    untested: 'A DuckPlayt ezzel a verzióval még nem próbálták ki, de valószínűleg működik.',
     otherCarPlay: {
       title: 'Távolítsd el a YMN One-t',
-      text: 'Egy másik CarPlay-mod, a YMN One is telepítve van a játékban (YamanDriveBridge.dll a plugins mappában). Lefoglalja a kamion GPS-képernyőjét, így ott a WestPlay nem jelenhet meg, és amikor a YMN One nem fut, a képernyő rózsaszín lesz. Zárd be a játékot, és töröld ezt a fájlt.',
+      text: 'Egy másik CarPlay-mod, a YMN One is telepítve van a játékban (YamanDriveBridge.dll a plugins mappában). Lefoglalja a kamion GPS-képernyőjét, így ott a DuckPlay nem jelenhet meg, és amikor a YMN One nem fut, a képernyő rózsaszín lesz. Zárd be a játékot, és töröld ezt a fájlt.',
     },
     trucks: 'Kamionok',
     truckNotYet: 'Még nem támogatott',
@@ -63,11 +63,11 @@ export const words: Words = {
     notInGame: 'Nincs a játékban',
     scania7: 'Scania S és R – 7"-os képernyő',
     scaniaSmartDash: 'Scania S és R – Smart Dash',
-    anyTruckTablet: 'Bármelyik kamion – a WestPlay tablettel',
+    anyTruckTablet: 'Bármelyik kamion – a DuckPlay tablettel',
     profiles: 'Profilok',
     profileCount: { one: '{n} profil', other: '{n} profil' },
     noProfiles: 'Még nincs profil',
-    noProfilesDetail: 'Amint létrehozod az első profilt, a WestPlay elkészíti hozzá a térképet.',
+    noProfilesDetail: 'Amint létrehozod az első profilt, a DuckPlay elkészíti hozzá a térképet.',
     baseMap: 'Eredeti térkép',
     withMods: '{map} + {mods}',
     unreadable: {
@@ -75,20 +75,20 @@ export const words: Words = {
       other: '{n} térképmodot nem sikerült beolvasni, ezért a változtatásaik nem látszanak',
     },
     mapNote:
-      'A WestPlay minden profilhoz külön térképet készít, egymás után, a legutóbb használttal kezdve. A térképek akkor készülnek, amikor a játék be van zárva.',
+      'A DuckPlay minden profilhoz külön térképet készít, egymás után, a legutóbb használttal kezdve. A térképek akkor készülnek, amikor a játék be van zárva.',
   },
   install: {
-    title: 'A WestPlay telepítése',
-    titleDone: 'A WestPlay telepítve',
-    sub: 'A WestPlay egy bővítményt ad a játékhoz, amely minden indításkor magától betölti a WestPlay kamionképernyőit – a Modkezelőben semmit sem kell bekapcsolnod. A játék saját fájljaihoz nem nyúl, és a WestPlay eltávolításakor minden törlődik.',
+    title: 'A DuckPlay telepítése',
+    titleDone: 'A DuckPlay telepítve',
+    sub: 'A DuckPlay egy bővítményt ad a játékhoz, amely minden indításkor magától betölti a DuckPlay kamionképernyőit – a Modkezelőben semmit sem kell bekapcsolnod. A játék saját fájljaihoz nem nyúl, és a DuckPlay eltávolításakor minden törlődik.',
     install: 'Telepítés',
     tryAgain: 'Újrapróbálás',
     asAdministrator: 'Telepítés rendszergazdaként',
     plugin: 'Bővítmény',
-    pluginDetail: 'Megjeleníti a WestPlayt a kamion képernyőjén',
+    pluginDetail: 'Megjeleníti a DuckPlayt a kamion képernyőjén',
     banners: {
       installing: { title: 'Telepítés…' },
-      done: { title: 'A WestPlay telepítve', text: 'A játék készen áll' },
+      done: { title: 'A DuckPlay telepítve', text: 'A játék készen áll' },
       permission: { title: 'Engedély szükséges', text: 'A Windows egyszer rákérdez' },
       inUse: { title: 'Zárd be a játékot', text: 'A játék használja a bővítményt' },
       failed: { title: 'A telepítés nem fejeződött be', text: 'A részleteket bal oldalt látod' },
@@ -96,7 +96,7 @@ export const words: Words = {
     },
     closeToInstall: {
       title: 'Zárd be a játékot.',
-      text: 'Amíg a játék fut, a WestPlay nem telepíthető.',
+      text: 'Amíg a játék fut, a DuckPlay nem telepíthető.',
     },
     inUse: {
       title: 'Zárd be a játékot.',
@@ -111,29 +111,29 @@ export const words: Words = {
       text: 'Enélkül a bővítmény nem telepíthető. Próbáld újra, és válaszd az „Igen” lehetőséget.',
     },
     pluginFailed: 'A bővítményt nem sikerült telepíteni.',
-    modFailed: 'A WestPlay kamionképernyőit nem sikerült elkészíteni a játék fájljaiból.',
-    noPlugin: 'A WestPlay ezen példányából hiányzik a bővítmény. Telepítsd újra a WestPlayt.',
+    modFailed: 'A DuckPlay kamionképernyőit nem sikerült elkészíteni a játék fájljaiból.',
+    noPlugin: 'A DuckPlay ezen példányából hiányzik a bővítmény. Telepítsd újra a DuckPlayt.',
     noDocuments: 'A Dokumentumok mappa nem található.',
   },
   speed: {
     title: 'Milyen gyorsan készüljenek a térképek?',
-    sub: 'Ezután a WestPlay települ a játékodba, és minden profilodhoz térképet készít. Ez egy ideig erősen leterheli a gépedet. Ha sok memóriád és erős processzorod van, használhatja az egészet, és hamarabb végez. Ha nem vagy biztos benne, hagyd kikapcsolva: később a Térkép oldalon módosíthatod.',
+    sub: 'Ezután a DuckPlay települ a játékodba, és minden profilodhoz térképet készít. Ez egy ideig erősen leterheli a gépedet. Ha sok memóriád és erős processzorod van, használhatja az egészet, és hamarabb végez. Ha nem vagy biztos benne, hagyd kikapcsolva: később a Térkép oldalon módosíthatod.',
     confirm: 'Elolvastam ezt az oldalt, és megerősítem a választásomat.',
   },
   map: {
     title: 'A térkép készül…',
     titleReady: 'A térkép elkészült',
-    sub: 'A WestPlay a saját játékodból készíti el a Térképek app térképét, a térkép-DLC-kkel és térképmodokkal együtt. Ez egy-két percig tart.',
+    sub: 'A DuckPlay a saját játékodból készíti el a Térképek app térképét, a térkép-DLC-kkel és térképmodokkal együtt. Ez egy-két percig tart.',
     banners: {
       building: 'A térkép készül',
       ready: { title: 'A térkép elkészült', text: 'A DLC-kkel és térképmodokkal' },
       waiting: { title: 'Zárd be a játékot', text: 'A térkép akkor készül, amikor a játék be van zárva' },
-      failed: { title: 'A térképet nem sikerült elkészíteni', text: 'A WestPlay később újra próbálkozik' },
+      failed: { title: 'A térképet nem sikerült elkészíteni', text: 'A DuckPlay később újra próbálkozik' },
       getting: 'Előkészítés…',
     },
     waiting: {
       title: 'Zárd be a játékot.',
-      text: 'A térkép elkészítése sok memóriát igényel, ezért a WestPlay megvárja, amíg bezárod a játékot.',
+      text: 'A térkép elkészítése sok memóriát igényel, ezért a DuckPlay megvárja, amíg bezárod a játékot.',
     },
     stages: {
       reading: { now: 'A térkép beolvasása a játékból', done: 'A térkép beolvasva' },
@@ -156,7 +156,7 @@ export const words: Words = {
   },
   accounts: {
     title: 'Bejelentkezés a YouTube-ba',
-    sub: 'Nem kötelező. Bejelentkezés után a kamion képernyőjén a saját ajánlásaidat, feliratkozásaidat és előzményeidet látod. A Google-bejelentkezés külön ablakban történik, a WestPlay nem fér hozzá a fiókodhoz.',
+    sub: 'Nem kötelező. Bejelentkezés után a kamion képernyőjén a saját ajánlásaidat, feliratkozásaidat és előzményeidet látod. A Google-bejelentkezés külön ablakban történik, a DuckPlay nem fér hozzá a fiókodhoz.',
     signIn: 'Bejelentkezés',
     signOut: 'Kijelentkezés',
     signedIn: 'Bejelentkezve',
@@ -167,13 +167,13 @@ export const words: Words = {
   },
   spotify: {
     title: 'Bejelentkezés a Spotifyba',
-    sub: 'Nem kötelező. Bejelentkezés után a kamion képernyőjén Spotifyt hallgathatsz a saját playlistjeiddel és gyűjteményeddel. A Spotify-bejelentkezés külön ablakban történik, a WestPlay nem fér hozzá a fiókodhoz.',
+    sub: 'Nem kötelező. Bejelentkezés után a kamion képernyőjén Spotifyt hallgathatsz a saját playlistjeiddel és gyűjteményeddel. A Spotify-bejelentkezés külön ablakban történik, a DuckPlay nem fér hozzá a fiókodhoz.',
     finishInWindow: 'Fejezd be a bejelentkezést a Spotify-ablakban',
     signingIn: { title: 'Bejelentkezés a Spotifyba', text: 'Folytasd a Spotify-ablakban' },
   },
   appleMusic: {
     title: 'Bejelentkezés az Apple Musicba',
-    sub: 'Nem kötelező. Bejelentkezés után a kamion képernyőjén Apple Musicot hallgathatsz a saját playlistjeiddel és könyvtáraddal. Az Apple Music-bejelentkezés külön ablakban történik, a WestPlay nem fér hozzá a fiókodhoz.',
+    sub: 'Nem kötelező. Bejelentkezés után a kamion képernyőjén Apple Musicot hallgathatsz a saját playlistjeiddel és könyvtáraddal. Az Apple Music-bejelentkezés külön ablakban történik, a DuckPlay nem fér hozzá a fiókodhoz.',
     finishInWindow: 'Fejezd be a bejelentkezést az Apple Music-ablakban',
     signingIn: { title: 'Bejelentkezés az Apple Musicba', text: 'Folytasd az Apple Music-ablakban' },
   },
@@ -183,11 +183,11 @@ export const words: Words = {
     steps: [
       {
         title: 'Indítsd el a játékot',
-        text: 'Amikor a játék kiírja: „A játék fejlett SDK funkciók hívását érzékelte.”, válaszd az „Ok” gombot – ezt az üzenetet a WestPlay váltja ki.',
+        text: 'Amikor a játék kiírja: „A játék fejlett SDK funkciók hívását érzékelte.”, válaszd az „Ok” gombot – ezt az üzenetet a DuckPlay váltja ki.',
       },
       {
         title: 'Szállj be a kamionba',
-        text: 'Kapcsold be a gyújtást, és a WestPlay megjelenik a képernyőn. Játék közben hagyd nyitva a WestPlayt.',
+        text: 'Kapcsold be a gyújtást, és a DuckPlay megjelenik a képernyőn. Játék közben hagyd nyitva a DuckPlayt.',
       },
       {
         title: 'Irány az út',

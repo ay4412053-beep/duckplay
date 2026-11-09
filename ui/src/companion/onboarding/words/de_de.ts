@@ -6,7 +6,7 @@ export const words: Words = {
   continue: 'Weiter',
   welcome: {
     title: 'CarPlay im Fahrerhaus',
-    sub: 'WestPlay bringt CarPlay auf den Bildschirm im Lkw – in Euro Truck Simulator 2 und American Truck Simulator. Die Einrichtung dauert nur ein paar Minuten.',
+    sub: 'DuckPlay bringt CarPlay auf den Bildschirm im Lkw – in Euro Truck Simulator 2 und American Truck Simulator. Die Einrichtung dauert nur ein paar Minuten.',
     start: 'Los geht’s',
   },
   summary: {
@@ -21,11 +21,11 @@ export const words: Words = {
     title: 'Das Spiel',
     titleBoth: 'Die Spiele',
     titleMissing: 'Wo ist das Spiel?',
-    found: 'WestPlay hat das Spiel auf diesem PC gefunden.',
+    found: 'DuckPlay hat das Spiel auf diesem PC gefunden.',
     foundMany: 'Das Spiel ist mehrfach installiert. Wähle die Installation, mit der du spielst.',
-    foundBoth: 'WestPlay hat beide Spiele auf diesem PC gefunden und richtet sich in beiden ein.',
+    foundBoth: 'DuckPlay hat beide Spiele auf diesem PC gefunden und richtet sich in beiden ein.',
     missing:
-      'WestPlay konnte das Spiel nicht finden. Wähle den Ordner, in dem es installiert ist – den mit der base.scs darin.',
+      'DuckPlay konnte das Spiel nicht finden. Wähle den Ordner, in dem es installiert ist – den mit der base.scs darin.',
     chooseAnother: 'Anderen Ordner verwenden …',
     chooseFolder: 'Ordner wählen …',
     picker: 'Ordner des Spiels wählen',
@@ -34,7 +34,7 @@ export const words: Words = {
     gameGone: 'Das Spiel ist nicht mehr in diesem Ordner.',
     closeToGoOn: {
       title: 'Bitte schließe das Spiel.',
-      text: 'WestPlay kann sich nur einrichten, solange das Spiel nicht läuft.',
+      text: 'DuckPlay kann sich nur einrichten, solange das Spiel nicht läuft.',
     },
   },
   check: {
@@ -45,16 +45,16 @@ export const words: Words = {
     notYet: 'Noch nicht unterstützt',
     title: 'Alles auf einen Blick',
     titleNotYet: 'Noch nicht unterstützt',
-    cantInstall: 'WestPlay unterstützt diese Version des Spiels noch nicht.',
+    cantInstall: 'DuckPlay unterstützt diese Version des Spiels noch nicht.',
     version: 'Version',
     unknown: 'Unbekannt',
     dlcs: 'DLCs',
     mapDlcs: 'Karten-DLCs',
     noMapDlcs: 'Keine',
-    untested: 'WestPlay wurde mit dieser Version noch nicht getestet, sollte aber höchstwahrscheinlich laufen.',
+    untested: 'DuckPlay wurde mit dieser Version noch nicht getestet, sollte aber höchstwahrscheinlich laufen.',
     otherCarPlay: {
       title: 'YMN One entfernen',
-      text: 'Im Spiel ist ein anderer CarPlay-Mod installiert: YMN One (YamanDriveBridge.dll im Ordner plugins). Er belegt den GPS-Bildschirm des Lkw, deshalb kann WestPlay dort nicht erscheinen, und der Bildschirm wird rosa, sobald YMN One nicht läuft. Schließe das Spiel und lösche diese Datei.',
+      text: 'Im Spiel ist ein anderer CarPlay-Mod installiert: YMN One (YamanDriveBridge.dll im Ordner plugins). Er belegt den GPS-Bildschirm des Lkw, deshalb kann DuckPlay dort nicht erscheinen, und der Bildschirm wird rosa, sobald YMN One nicht läuft. Schließe das Spiel und lösche diese Datei.',
     },
     trucks: 'Lkw',
     truckNotYet: 'Noch nicht unterstützt',
@@ -63,11 +63,11 @@ export const words: Words = {
     notInGame: 'Nicht im Spiel',
     scania7: 'Scania S und R – 7"-Bildschirm',
     scaniaSmartDash: 'Scania S und R – Smart Dash',
-    anyTruckTablet: 'Jeder Lkw – mit dem WestPlay-Tablet',
+    anyTruckTablet: 'Jeder Lkw – mit dem DuckPlay-Tablet',
     profiles: 'Profile',
     profileCount: { one: '{n} Profil', other: '{n} Profile' },
     noProfiles: 'Noch keine Profile',
-    noProfilesDetail: 'WestPlay bereitet die Karte für das erste Profil vor, das du anlegst.',
+    noProfilesDetail: 'DuckPlay bereitet die Karte für das erste Profil vor, das du anlegst.',
     baseMap: 'Originalkarte',
     withMods: '{map} mit {mods}',
     unreadable: {
@@ -75,20 +75,20 @@ export const words: Words = {
       other: '{n} Karten-Mods konnten nicht gelesen werden, ihre Änderungen fehlen',
     },
     mapNote:
-      'WestPlay bereitet für jedes Profil eine eigene Karte vor, eine nach der anderen, angefangen mit dem zuletzt gespielten. Das geschieht, während das Spiel geschlossen ist.',
+      'DuckPlay bereitet für jedes Profil eine eigene Karte vor, eine nach der anderen, angefangen mit dem zuletzt gespielten. Das geschieht, während das Spiel geschlossen ist.',
   },
   install: {
-    title: 'WestPlay installieren',
-    titleDone: 'WestPlay ist installiert',
-    sub: 'WestPlay fügt dem Spiel ein Plug-in hinzu, das die Lkw-Bildschirme von WestPlay bei jedem Start mitlädt – im Mod-Manager musst du nichts aktivieren. Die Dateien des Spiels bleiben unverändert, und beim Deinstallieren wird alles wieder entfernt.',
+    title: 'DuckPlay installieren',
+    titleDone: 'DuckPlay ist installiert',
+    sub: 'DuckPlay fügt dem Spiel ein Plug-in hinzu, das die Lkw-Bildschirme von DuckPlay bei jedem Start mitlädt – im Mod-Manager musst du nichts aktivieren. Die Dateien des Spiels bleiben unverändert, und beim Deinstallieren wird alles wieder entfernt.',
     install: 'Installieren',
     tryAgain: 'Erneut versuchen',
     asAdministrator: 'Als Administrator installieren',
     plugin: 'Plug-in',
-    pluginDetail: 'Zeigt WestPlay auf dem Bildschirm des Lkw',
+    pluginDetail: 'Zeigt DuckPlay auf dem Bildschirm des Lkw',
     banners: {
       installing: { title: 'Wird installiert …' },
-      done: { title: 'WestPlay ist installiert', text: 'Das Spiel ist bereit' },
+      done: { title: 'DuckPlay ist installiert', text: 'Das Spiel ist bereit' },
       permission: { title: 'Erlaubnis nötig', text: 'Windows fragt einmal nach' },
       inUse: { title: 'Schließe das Spiel', text: 'Das Plug-in ist in Gebrauch' },
       failed: { title: 'Installation nicht abgeschlossen', text: 'Details siehe links' },
@@ -96,7 +96,7 @@ export const words: Words = {
     },
     closeToInstall: {
       title: 'Bitte schließe das Spiel.',
-      text: 'WestPlay kann nicht installiert werden, während das Spiel läuft.',
+      text: 'DuckPlay kann nicht installiert werden, während das Spiel läuft.',
     },
     inUse: {
       title: 'Bitte schließe das Spiel.',
@@ -111,29 +111,29 @@ export const words: Words = {
       text: 'Ohne sie kann das Plug-in nicht installiert werden. Versuche es erneut und wähle „Ja“.',
     },
     pluginFailed: 'Das Plug-in konnte nicht installiert werden.',
-    modFailed: 'Die Lkw-Bildschirme von WestPlay konnten nicht aus den Dateien des Spiels erstellt werden.',
-    noPlugin: 'In dieser Kopie von WestPlay fehlt das Plug-in. Bitte installiere WestPlay neu.',
+    modFailed: 'Die Lkw-Bildschirme von DuckPlay konnten nicht aus den Dateien des Spiels erstellt werden.',
+    noPlugin: 'In dieser Kopie von DuckPlay fehlt das Plug-in. Bitte installiere DuckPlay neu.',
     noDocuments: 'Der Ordner „Dokumente“ wurde nicht gefunden.',
   },
   speed: {
     title: 'Wie schnell sollen die Karten entstehen?',
-    sub: 'Als Nächstes wird WestPlay in dein Spiel installiert und erstellt für jedes deiner Profile eine Karte. Das fordert deinen PC eine Weile stark. Hast du viel Arbeitsspeicher und einen starken Prozessor, kann es alles davon nutzen und schneller fertig werden. Wenn du unsicher bist, lass es aus: Du kannst es später auf der Seite Karte ändern.',
+    sub: 'Als Nächstes wird DuckPlay in dein Spiel installiert und erstellt für jedes deiner Profile eine Karte. Das fordert deinen PC eine Weile stark. Hast du viel Arbeitsspeicher und einen starken Prozessor, kann es alles davon nutzen und schneller fertig werden. Wenn du unsicher bist, lass es aus: Du kannst es später auf der Seite Karte ändern.',
     confirm: 'Ich habe diese Seite gelesen und bestätige meine Wahl.',
   },
   map: {
     title: 'Die Karte wird vorbereitet …',
     titleReady: 'Die Karte ist fertig',
-    sub: 'WestPlay erstellt die Karte für die Karten-App aus dem Spiel selbst, samt deinen Karten-DLCs und Karten-Mods. Das dauert ein, zwei Minuten.',
+    sub: 'DuckPlay erstellt die Karte für die Karten-App aus dem Spiel selbst, samt deinen Karten-DLCs und Karten-Mods. Das dauert ein, zwei Minuten.',
     banners: {
       building: 'Die Karte wird vorbereitet',
       ready: { title: 'Die Karte ist fertig', text: 'Mit deinen DLCs und Karten-Mods' },
       waiting: { title: 'Schließe das Spiel', text: 'Die Karte entsteht bei geschlossenem Spiel' },
-      failed: { title: 'Die Karte konnte nicht erstellt werden', text: 'WestPlay versucht es später erneut' },
+      failed: { title: 'Die Karte konnte nicht erstellt werden', text: 'DuckPlay versucht es später erneut' },
       getting: 'Wird vorbereitet …',
     },
     waiting: {
       title: 'Bitte schließe das Spiel.',
-      text: 'Die Karte zu erstellen braucht viel Arbeitsspeicher, deshalb wartet WestPlay, bis das Spiel nicht mehr läuft.',
+      text: 'Die Karte zu erstellen braucht viel Arbeitsspeicher, deshalb wartet DuckPlay, bis das Spiel nicht mehr läuft.',
     },
     stages: {
       reading: { now: 'Die Karte des Spiels wird gelesen', done: 'Karte aus dem Spiel gelesen' },
@@ -156,7 +156,7 @@ export const words: Words = {
   },
   accounts: {
     title: 'Bei YouTube anmelden',
-    sub: 'Optional. Melde dich an, um deine Empfehlungen, Abos und deinen Verlauf auf dem Bildschirm im Lkw zu sehen. Die Anmeldung bei Google läuft in einem eigenen Fenster – WestPlay sieht dein Konto nie.',
+    sub: 'Optional. Melde dich an, um deine Empfehlungen, Abos und deinen Verlauf auf dem Bildschirm im Lkw zu sehen. Die Anmeldung bei Google läuft in einem eigenen Fenster – DuckPlay sieht dein Konto nie.',
     signIn: 'Anmelden',
     signOut: 'Abmelden',
     signedIn: 'Angemeldet',
@@ -167,13 +167,13 @@ export const words: Words = {
   },
   spotify: {
     title: 'Bei Spotify anmelden',
-    sub: 'Optional. Melde dich an, um Spotify mit deinen Playlists und deiner Bibliothek auf dem Bildschirm im Lkw zu hören. Die Anmeldung bei Spotify läuft in einem eigenen Fenster – WestPlay sieht dein Konto nie.',
+    sub: 'Optional. Melde dich an, um Spotify mit deinen Playlists und deiner Bibliothek auf dem Bildschirm im Lkw zu hören. Die Anmeldung bei Spotify läuft in einem eigenen Fenster – DuckPlay sieht dein Konto nie.',
     finishInWindow: 'Schließe die Anmeldung im Spotify-Fenster ab',
     signingIn: { title: 'Anmeldung bei Spotify', text: 'Weiter im Spotify-Fenster' },
   },
   appleMusic: {
     title: 'Bei Apple Music anmelden',
-    sub: 'Optional. Melde dich an, um Apple Music mit deinen Playlists und deiner Mediathek auf dem Bildschirm im Lkw zu hören. Die Anmeldung bei Apple Music läuft in einem eigenen Fenster – WestPlay sieht dein Konto nie.',
+    sub: 'Optional. Melde dich an, um Apple Music mit deinen Playlists und deiner Mediathek auf dem Bildschirm im Lkw zu hören. Die Anmeldung bei Apple Music läuft in einem eigenen Fenster – DuckPlay sieht dein Konto nie.',
     finishInWindow: 'Schließe die Anmeldung im Apple-Music-Fenster ab',
     signingIn: { title: 'Anmeldung bei Apple Music', text: 'Weiter im Apple-Music-Fenster' },
   },
@@ -183,11 +183,11 @@ export const words: Words = {
     steps: [
       {
         title: 'Starte das Spiel',
-        text: 'Wenn es „Anfrage auf Verwendung erweiterter SDK-Features festgestellt.“ meldet, wähle „Ok“ – die Abfrage kommt von WestPlay.',
+        text: 'Wenn es „Anfrage auf Verwendung erweiterter SDK-Features festgestellt.“ meldet, wähle „Ok“ – die Abfrage kommt von DuckPlay.',
       },
       {
         title: 'Steig in den Lkw',
-        text: 'Schalte die Zündung ein, dann erscheint WestPlay auf dem Bildschirm. Lass WestPlay geöffnet, während du spielst.',
+        text: 'Schalte die Zündung ein, dann erscheint DuckPlay auf dem Bildschirm. Lass DuckPlay geöffnet, während du spielst.',
       },
       {
         title: 'Ab auf die Straße',

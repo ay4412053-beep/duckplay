@@ -89,7 +89,7 @@ export const strings: Strings = {
     onJob: 'Pendant une livraison, la destination est celle du chargement',
     noAnswer: 'Le jeu n’a pas répondu',
     elevated:
-      'Le jeu est lancé en tant qu’administrateur : WestPlay ne peut pas voir son itinéraire. Lancez-le normalement',
+      'Le jeu est lancé en tant qu’administrateur : DuckPlay ne peut pas voir son itinéraire. Lancez-le normalement',
     unsupported: 'Cette version du jeu n’est pas encore prise en charge',
     failed: 'Le jeu n’a pas trouvé d’itinéraire jusque-là',
   },
@@ -468,9 +468,9 @@ export const strings: Strings = {
       'Sombre la nuit et dès que les phares sont allumés, comme le fait le capteur de luminosité du camion.',
     vehicleBar: 'Barre du véhicule',
     vehicleBarFooter:
-      'La barre d’informations du camion, à côté de WestPlay. Désactivée, WestPlay occupe tout l’écran.',
+      'La barre d’informations du camion, à côté de DuckPlay. Désactivée, DuckPlay occupe tout l’écran.',
     textSize: 'Taille du texte',
-    textSizeAbout: 'Les apps de WestPlay s’adapteront à la taille de lecture que vous choisissez ci-dessous.',
+    textSizeAbout: 'Les apps de DuckPlay s’adapteront à la taille de lecture que vous choisissez ci-dessous.',
     wallpaper: 'Fond d’écran',
     dashboard: 'Tableau de bord',
     widgets: 'Widgets',
@@ -484,7 +484,7 @@ export const strings: Strings = {
     recommended: 'Recommandé',
     custom: 'Personnalisé',
     equalizerFooter:
-      'WestPlay diffuse la musique par les haut-parleurs de chaque camion, réglés pour sa cabine. Si vous préférez un autre son, vous pouvez régler le rendu de toutes les apps de musique, dans tous les camions.',
+      'DuckPlay diffuse la musique par les haut-parleurs de chaque camion, réglés pour sa cabine. Si vous préférez un autre son, vous pouvez régler le rendu de toutes les apps de musique, dans tous les camions.',
     low: 'Graves',
     mid: 'Médiums',
     high: 'Aigus',

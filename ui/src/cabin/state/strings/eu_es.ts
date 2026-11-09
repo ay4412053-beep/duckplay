@@ -96,7 +96,7 @@ export const strings: Strings = {
     onJob: 'Lan bat egiten ari zarela, helmuga lanarena da',
     noAnswer: 'Jokoak ez du erantzun',
     elevated:
-      'Jokoa administratzaile gisa exekutatzen ari da, eta WestPlay-k ezin du haren ibilbidea ikusi. Abiarazi jokoa modu arruntean',
+      'Jokoa administratzaile gisa exekutatzen ari da, eta DuckPlay-k ezin du haren ibilbidea ikusi. Abiarazi jokoa modu arruntean',
     unsupported: 'Jokoaren bertsio hau ez da onartzen oraindik',
     failed: 'Jokoak ezin izan du hara ibilbiderik kalkulatu',
   },
@@ -471,9 +471,9 @@ export const strings: Strings = {
     automaticFooter: 'Iluna gauez eta faroak piztuta dauden bakoitzean, kamioiaren argi-sentsoreak egiten duen bezala.',
     vehicleBar: 'Ibilgailuaren barra',
     vehicleBarFooter:
-      'WestPlay-ren ondoko kamioiaren informazio-barra. Desaktibatuz gero, WestPlay-k pantaila osoa hartzen du.',
+      'DuckPlay-ren ondoko kamioiaren informazio-barra. Desaktibatuz gero, DuckPlay-k pantaila osoa hartzen du.',
     textSize: 'Testuaren tamaina',
-    textSizeAbout: 'WestPlay-ren aplikazioak behean aukeratzen duzun irakurketa-tamainara egokituko dira.',
+    textSizeAbout: 'DuckPlay-ren aplikazioak behean aukeratzen duzun irakurketa-tamainara egokituko dira.',
     wallpaper: 'Horma-papera',
     dashboard: 'Panela',
     widgets: 'Widgetak',
@@ -487,7 +487,7 @@ export const strings: Strings = {
     recommended: 'Gomendatua',
     custom: 'Pertsonalizatua',
     equalizerFooter:
-      'WestPlay-k kamioi bakoitzaren bozgorailuetatik erreproduzitzen du musika, haren kabinarako doituta. Beste soinu bat nahiago baduzu, musika-aplikazio guztien soinua pertsonaliza dezakezu, kamioi guztietan.',
+      'DuckPlay-k kamioi bakoitzaren bozgorailuetatik erreproduzitzen du musika, haren kabinarako doituta. Beste soinu bat nahiago baduzu, musika-aplikazio guztien soinua pertsonaliza dezakezu, kamioi guztietan.',
     low: 'Baxuak',
     mid: 'Erdikoak',
     high: 'Altuak',

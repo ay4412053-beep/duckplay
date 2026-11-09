@@ -8,10 +8,10 @@ export const words: Words = {
   locale: 'es-419',
   game: {
     ...spain.game,
-    found: 'WestPlay encontró el juego en esta computadora.',
+    found: 'DuckPlay encontró el juego en esta computadora.',
     foundMany: 'El juego está instalado en más de un lugar. Elige el que usas para jugar.',
-    foundBoth: 'WestPlay encontró los dos juegos en esta computadora y se instalará en ambos.',
-    missing: 'WestPlay no encontró el juego. Elige la carpeta donde está instalado, la que contiene base.scs.',
+    foundBoth: 'DuckPlay encontró los dos juegos en esta computadora y se instalará en ambos.',
+    missing: 'DuckPlay no encontró el juego. Elige la carpeta donde está instalado, la que contiene base.scs.',
     closeToGoOn: { ...spain.game.closeToGoOn, title: 'Primero cierra el juego.' },
   },
   check: {
@@ -34,14 +34,14 @@ export const words: Words = {
       text: 'Sin él no se puede instalar el plugin. Vuelve a intentarlo y elige «Sí».',
     },
     pluginFailed: 'No se pudo instalar el plugin.',
-    modFailed: 'No se pudieron preparar las pantallas de WestPlay a partir de los archivos del juego.',
+    modFailed: 'No se pudieron preparar las pantallas de DuckPlay a partir de los archivos del juego.',
     noDocuments: 'No se encontró la carpeta Documentos.',
   },
   map: {
     ...spain.map,
     banners: {
       ...spain.map.banners,
-      failed: { title: 'No se pudo preparar el mapa', text: 'WestPlay lo volverá a intentar más tarde' },
+      failed: { title: 'No se pudo preparar el mapa', text: 'DuckPlay lo volverá a intentar más tarde' },
     },
     waiting: { ...spain.map.waiting, title: 'Primero cierra el juego.' },
   },
@@ -58,7 +58,7 @@ export const words: Words = {
   },
   spotify: {
     ...spain.spotify,
-    sub: 'Opcional. Inicia sesión para escuchar Spotify en la pantalla del camión, con tus playlists y tu biblioteca. El inicio de sesión se hace en otra ventana de Spotify, y WestPlay nunca ve los datos de tu cuenta.',
+    sub: 'Opcional. Inicia sesión para escuchar Spotify en la pantalla del camión, con tus playlists y tu biblioteca. El inicio de sesión se hace en otra ventana de Spotify, y DuckPlay nunca ve los datos de tu cuenta.',
   },
   launch: {
     ...spain.launch,

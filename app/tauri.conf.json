@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "WestPlay",
+  "productName": "DuckPlay",
   "version": "2.2.2",
   "identifier": "app.westplay",
   "build": {
@@ -20,7 +20,7 @@
     "windows": [
       {
         "label": "main",
-        "title": "WestPlay",
+        "title": "DuckPlay",
         "width": 900,
         "height": 600,
         "resizable": false,
@@ -34,11 +34,11 @@
   },
   "bundle": {
     "active": false,
-    "publisher": "WestPlay",
-    "copyright": "Copyright © 2026 WestPlay. Licensed under the GPL-3.0-or-later.",
+    "publisher": "DuckPlay",
+    "copyright": "Copyright © 2026 DuckPlay. Based on WestPlay by enes-less. Licensed under the GPL-3.0-or-later.",
     "category": "Game",
     "shortDescription": "CarPlay for the screens of your trucks in Euro Truck Simulator 2",
-    "longDescription": "WestPlay puts a CarPlay-style screen in your truck in Euro Truck Simulator 2: a map made from your own game, music from Apple Music, Spotify and YouTube Music, YouTube, and your game's route, on the truck's own screen.",
+    "longDescription": "DuckPlay is a fork of WestPlay. It puts a CarPlay-style screen in your truck in Euro Truck Simulator 2: a map made from your own game, music from Apple Music, Spotify and YouTube Music, YouTube, and your game's route, on the truck's own screen.",
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",
@@ -52,7 +52,7 @@
   "plugins": {
     "updater": {
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDU2OTc1ODBDNjdDNTc3Q0UKUldUT2Q4Vm5ERmlYVnQvV0dLdVVNUWtlcjlpKzB3MVVNeVJVeHhXNHFGVUNaU2xpVDNNVjhkWmEK",
-      "endpoints": ["https://github.com/enes-less/WestPlay/releases/latest/download/latest.json"],
+      "endpoints": ["https://github.com/ay4412053-beep/duckplay/releases/latest/download/latest.json"],
       "requireSignedVersion": true,
       "windows": {
         "installMode": "passive"
